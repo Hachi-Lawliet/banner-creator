@@ -1,0 +1,36 @@
+{
+  "safeAreaRatio": 0.1,
+  "goldenRatio": 1.618,
+  "titleFontSizeRatio": { "min": 0.04, "max": 0.06 },
+  "subtitleFontSizeRatio": { "min": 0.025, "max": 0.035 },
+  "logoMinSizeRatio": 0.08,
+  "logoClearSpaceRatio": 0.5,
+  "gravityCenterTarget": { "min": 0.4, "max": 0.5 },
+  "overlayDefault": 0.5,
+  "overlayMax": 0.8,
+  "accentAreaRatio": { "min": 0.1, "max": 0.15 },
+  "sizePresets": [
+    { "name": "デフォルト", "width": 800, "height": 600 },
+    { "name": "OGP", "width": 1200, "height": 628 },
+    { "name": "SNS正方形", "width": 1080, "height": 1080 },
+    { "name": "Webバナー（横長）", "width": 1200, "height": 400 },
+    { "name": "SNSカバー", "width": 1500, "height": 500 }
+  ],
+  "enterkeyStyle": {
+    "photoWidthRatio": 0.65,
+    "photoSkewAngle": 15,
+    "logoPosition": { "x": 0.05, "y": 0.08 },
+    "logoMaxWidthRatio": 0.22,
+    "textBlockStartX": 0.45,
+    "textBlockStartY": 0.3,
+    "titleFontSizeRatio": 0.055,
+    "cornerTriangleSize": 0.08,
+    "stripeWidth": 4,
+    "stripeGap": 6,
+    "overlayGradientStops": [
+      { "offset": 0, "opacity": 0.7 },
+      { "offset": 0.6, "opacity": 0.3 },
+      { "offset": 1, "opacity": 0 }
+    ]
+  }
+}
